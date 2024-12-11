@@ -47,6 +47,18 @@ Make sure to add `.env` to your `.gitignore` file to keep your API key secure.
 
 ## Installation
 
+### Using mcp-get (Recommended)
+
+Install using mcp-get:
+```bash
+npx @michaellatman/mcp-get@latest install @kagi/mcp-server-kagi
+```
+
+Required environment variables:
+- `KAGI_API_KEY`: Your Kagi API key (required for API access)
+
+### Manual Installation
+
 To use with Claude Desktop, add the server config:
 
 On MacOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
@@ -104,4 +116,5 @@ This project is licensed under the MIT License.
 - Implement `kagi_enrich` tool for fetching enriched news results
 - Improve error handling and add more robust input validation
 - Add more comprehensive usage examples and documentation
+- Package is available via mcp-get for easy installation
 - Publish the package to npm for easy installation and use with Claude Desktop and npx
