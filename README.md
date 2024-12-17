@@ -7,6 +7,8 @@ This is a TypeScript-based MCP server that integrates the Kagi Search API. It de
 
 - Tools for performing web searches and other operations using Kagi's API (currently in private beta)
 
+<a href="https://glama.ai/mcp/servers/z0f3dzmha4"><img width="380" height="200" src="https://glama.ai/mcp/servers/z0f3dzmha4/badge" alt="Kagi server MCP server" /></a>
+
 ## Features
 
 ### Implemented Tools
